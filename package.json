@@ -1,0 +1,25 @@
+{
+  "name": "redis-githubapi",
+  "version": "1.0.0",
+  "description": "getting github user profile info and storing in redis",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuagkcuf/redis-githubAPI.git"
+  },
+  "keywords": [],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuagkcuf/redis-githubAPI/issues"
+  },
+  "homepage": "https://github.com/tuagkcuf/redis-githubAPI#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
