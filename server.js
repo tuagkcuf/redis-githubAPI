@@ -24,4 +24,4 @@ async function getRepos(req, res, next) {
 
 app.get('/repos/:username', getRepos) 
 
-app.listen(PORT, () => `App listening on port: ${PORT}`)
+app.listen(PORT, () => console.log(`App listening on port: ${PORT}`))
